@@ -1,16 +1,11 @@
 .resume-container {
 
-    background-color:silver;
-    background-image:url("_webdevelopment/resume.pdf");
-    background-repeat:no-repeat;
-    background-position: 100px 10px;
 
-    /* The first 4 lines don't do anything. My shorthand overrides it*/
+    background:#C0C0C0 url("https://jackbur72.github.io/webdevelopment/waves.jpeg") center center no-repeat;
+    background-size: cover;
 
-    background:#C0C0C0 url("_webdevelopment/waves.jpeg") center center no-repeat;
-
-    height:900px;
-    width:900px;
+    height: 200px;
+    width: 200px;
 
     border:5px solid blue;
     padding:10px;
