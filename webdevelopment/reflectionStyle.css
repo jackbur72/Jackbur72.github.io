@@ -1,0 +1,21 @@
+.reflectionBox {
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9; /* Optional */
+}
+
+.firstLetter::first-letter {
+  font-size: 200%;
+  color: silver;
+  font-weight: bold;
+  text-indent: 5em;
+
+}
+
+.reflectionBox p:not(.firstLetter) {
+  text-indent: 2em;
+}
+
+.firstLetter {
+  text-indent: 2em; 
+}
