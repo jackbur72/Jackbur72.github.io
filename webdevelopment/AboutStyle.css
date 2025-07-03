@@ -9,21 +9,57 @@ Author:  Jack Burgess
 
 School/Term:  University of Missouri, Summer 2025 term
 
-Developed: June 28, 2025
+Developed: July 2, 2025
 
-Tested:  June 28, 2025; Passed on Firefox and Chrome browsers.
+Tested:  July 2, 2025; Passed on Firefox and Chrome browsers.
 
 *****************************************************************************
 
 */
 .resume-container {
     background: #C0C0C0; 
-    
     height: 200px;
     width: 200px;
-    
     border: 5px solid red;
     padding: 10px;
-    
     margin: 20px;
+}
+
+.container {
+  display: flex;
+  gap: 10px;
+}
+
+.left-sidebar, .right-sidebar {
+  width: 25%;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+main {
+  flex: 1; 
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .left-sidebar {
+    order: 1;  /* first */
+    width: 100%;
+    border: none;
+  }
+  main {
+    order: 2;  /* second */
+    width: 100%;
+    border: none;
+  }
+  .right-sidebar {
+    order: 3;  /* last */
+    width: 100%;
+    border: none;
+  }
 }
