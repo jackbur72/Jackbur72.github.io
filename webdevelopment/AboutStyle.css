@@ -63,3 +63,13 @@ main {
     border: none;
   }
 }
+
+.left-sidebar img,
+.right-sidebar img {
+  width: 100%;       
+  height: auto;      
+  display: block;    
+  margin-bottom: 5px; 
+  border-radius: 2px; 
+  object-fit: cover; 
+}
