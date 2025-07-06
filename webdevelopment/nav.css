@@ -130,12 +130,15 @@ body {
         display: none;
         width: 95%;
         flex-direction: column;
+        
         padding: 0;
         margin: 0;
         background-color: silver;
+        flex: 1 0 auto;
     }
-
-    #hamburger:checked + #hamburger-icon + .nav {
+    
+/* This functions as an IF Statement. Think of how you could use a condintional statement in C */
+    #hamburger:checked + #hamburger-icon + .nav { 
         display: flex;
     }
 
@@ -145,10 +148,12 @@ body {
         width: 95%;
         margin: 0;
         padding: 12px 0;
+        
         border: none;
         background-color: blue;
         
         border-bottom: 2px solid red;
+        z-index: auto;
     }
 
     .nav > li > a {
