@@ -18,7 +18,10 @@ Tested:  July 6, 2025; Passed on Firefox and Chrome browsers.
 */
 
 h1 {
-  color: #0000FF !important;
+  color: #0000FF;
+}
+h2 {
+  color: #0000FF;
 }
 
 
