@@ -137,7 +137,7 @@ body {
         flex: 1 0 auto;
     }
     
-/* This functions as an IF Statement. Think of how you could use a condintional statement in C */
+/* This functions as an IF Statement. Think of how you could use a condintional statement in C -JMB */
     #hamburger:checked + #hamburger-icon + .nav { 
         display: flex;
     }
