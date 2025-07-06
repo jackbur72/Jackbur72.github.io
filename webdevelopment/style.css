@@ -17,6 +17,62 @@ Tested:  June 28, 2025; Passed on Firefox and Chrome browsers.
 
 */
 
+/*--
+
+*****************************************************************************
+
+Title:  GeneralStyle Css Page
+
+Use:  Add a General Style to all of my Webpages. This is an on going development
+Author:  Jack Burgess
+
+School/Term:  University of Missouri, Summer 2025 term
+
+Developed: June 28, 2025
+
+Tested:  June 28, 2025; Passed on Firefox and Chrome browsers.
+
+****************************************************************************** */
+
+
 h1 {
-  color: #008000; /* This is a standard green */
+  color: #008000; 
+}
+
+
+@media only screen and (max-width: 640px) {
+
+    body {
+        font-size: 16px;
+        margin: 10px;
+        padding: 0;
+    }
+
+    header, main, footer {
+        padding: 10px;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    header h1 {
+        font-size: 1.8rem;
+        color: #008000;
+        text-align: center;
+    }
+
+    main h2, main h3 {
+        font-size: 1.4rem;
+    }
+
+    main p {
+        font-size: 1rem;
+        line-height: 1.4;
+        padding: 0 10px;
+    }
+
+    footer p {
+        font-size: 0.9rem;
+        text-align: center;
+        margin: 5px 0;
+    }
 }
