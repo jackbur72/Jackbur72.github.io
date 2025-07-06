@@ -18,7 +18,7 @@ Tested:  July 6, 2025; Passed on Firefox and Chrome browsers.
 */
 
 h1 {
-  color: #0000FF; 
+  color: #0000FF !important;
 }
 
 
@@ -38,7 +38,6 @@ h1 {
 
      h1 {
         font-size: 1.8rem;
-        color: #0000FF;
         text-align: center;
     }
 
