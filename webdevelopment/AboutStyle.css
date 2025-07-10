@@ -113,9 +113,12 @@ margin: 1in;
 
 }
     
-body * {
-    display: none;
-  }
+nav,
+    .left-sidebar, .right-sidebar,
+    .videoContainer,
+    .resume-container{
+        display: none;
+    }
 
     h1, 
     h2, 
@@ -132,12 +135,10 @@ body * {
     color: black;
     font-family: 'Merriweather', Times, serif;
     font-size: 16px;
-    font-height 24px;
+    font-height: 24px;
     }
 
     footer img{
     display: none;
     }
-
-
 }
