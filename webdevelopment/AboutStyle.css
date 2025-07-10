@@ -106,3 +106,31 @@ main {
     margin: 20px auto;
   }
 }
+
+@media print{
+@page{
+margin: 1in;
+
+}
+    
+body * {
+    display: none;
+  }
+
+    h1, 
+    h2, 
+    p,
+    ul,
+    blockquote,
+    footer {
+    display: block;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    }
+
+    footer img{
+    display: none;
+    }
+
+
+}
