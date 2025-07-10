@@ -134,8 +134,8 @@ nav,
     display: block;
     color: black;
     font-family: 'Merriweather', Times, serif;
-    font-size: 16px;
-    font-height: 24px;
+     font-size: 16px;
+  line-height: 24px;
     }
 
     footer img{
