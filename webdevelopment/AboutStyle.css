@@ -120,6 +120,9 @@ nav,
     .resume-container {
         display: none !important;
     }
+    .resumeLink {
+  display: none !important;
+}
 
     body{ 
         color: black !important;
