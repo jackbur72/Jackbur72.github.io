@@ -9,9 +9,9 @@ Author:  Jack Burgess
 
 School/Term:  University of Missouri, Summer 2025 term
 
-Developed: July 6, 2025
+Developed: July 9, 2025
 
-Tested:  July 6, 2025; Passed on Firefox and Chrome browsers.
+Tested:  July 9, 2025; Passed on Firefox and Chrome browsers.
 
 ******************************************************************************
 
@@ -23,7 +23,20 @@ h1 {
 h2 {
   color: #0000FF;
 }
-
+.pic{
+  width:25px;
+  height:25px;
+}
+.picBig{
+  position:absolute;
+  width:0px;
+  -webkit-transition:width 0.3s linear 0s;
+  transition:width 0.3s linear 0s;
+  z-index:10;
+}
+.pic:hover + .picBig{
+  width:100px;
+}
 
 @media only screen and (max-width: 640px) {
 
