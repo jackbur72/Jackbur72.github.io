@@ -59,18 +59,14 @@ main {
 }
 
 .videoContainer{
-    position: relative;
-    padding-bottom: 50%;
-    height: 0;
-    max-width: 85%;
+    width: 90%;
+    max-width: 560px;
+    margin: 20px auto;
 }
 
 .videoContainer iframe{
-    position: absolute;
-    top: 0;
-    bottom: 0;
     width: 100%;
-    height: 100%;
+    height: 500px;
     border: none;
 }
 
