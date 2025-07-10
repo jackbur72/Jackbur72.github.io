@@ -120,12 +120,19 @@ body * {
     h1, 
     h2, 
     p,
-    ul,
     blockquote,
     footer {
     display: block;
     color: black;
     font-family: "Times New Roman", Times, serif;
+    }
+
+    .educationList{
+    display: block;
+    color: black;
+    font-family: 'Merriweather', Times, serif;
+    font-size: 16px;
+    font-height 24px;
     }
 
     footer img{
