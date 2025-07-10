@@ -117,12 +117,11 @@ nav,
 .left-sidebar,
     .right-sidebar,
     .videoContainer,
-    .resume-container {
+    .resume-container,
+    .resumeLink{
         display: none !important;
     }
-    .resumeLink {
-  display: none !important;
-}
+    
 
     body{ 
         color: black !important;
