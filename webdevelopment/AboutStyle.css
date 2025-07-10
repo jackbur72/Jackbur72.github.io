@@ -114,26 +114,32 @@ margin: 1in;
 }
     
 nav,
-    .left-sidebar, .right-sidebar,
+.left-sidebar,
+    .right-sidebar,
     .videoContainer,
-    .resume-container{
-        display: none;
+    .resume-container {
+        display: none !important;
     }
 
+    body{ 
+        color: black !important;
+    font-family: "Times New Roman", Times, serif;
+        }
+
     h1, 
-    h2, 
+    main,
     p,
     blockquote,
+    h3, 
+    .educationList,
     footer {
-    display: block;
-    color: black;
-    font-family: "Times New Roman", Times, serif;
+    display: block !important;
     }
 
     .educationList{
     display: block;
     color: black;
-    font-family: 'Merriweather', Times, serif;
+    font-family: 'Merriweather', Times, serif !important;
      font-size: 16px;
   line-height: 24px;
     }
