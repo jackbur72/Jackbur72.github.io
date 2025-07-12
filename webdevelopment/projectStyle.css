@@ -17,6 +17,41 @@ Tested:  July 9, 2025; Passed on Firefox and Chrome browsers.
 
 */
 
+.projectBox{
+    padding: 20px;
+      margin: 20px;
+     background-color: #f9f9f9;
+
+}
+
+.projectBox p {
+  text-indent: 2em;
+}
+
+.projectBox h2 {
+  margin-top: 0;
+ color: #333;
+}
+
+.projectBox p:first-of-type::first-letter {
+    
+  font-size: 200%;
+  color: silver;
+  font-weight: bold;
+  text-indent: 5em;
+}
+
+.projectBox img {
+
+  width: 100%;
+  max-width: 700px;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+
+  object-fit: cover;
+}
+
 .mainTitle{
   background-color: silver;
   padding: 1rem 0;
@@ -29,55 +64,28 @@ Tested:  July 9, 2025; Passed on Firefox and Chrome browsers.
   color: black;
   margin: 0;
 }
-.container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-  justify-content: space-between;
-}
-
-.leftSidebar {
-  width: 65%;
-  box-sizing: border-box;
-  padding: 10px;
-  border: 1px solid black;
-}
-
-.rightSidebar {
-  width: 30%;
-  box-sizing: border-box;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.leftSidebar main {
-  width: 100%;
-}
-
-.rightSidebar img {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: 4px;
-  object-fit: cover;
-}
 
 @media (max-width: 640px) {
-  .container {
-    flex-direction: column;
+  .projectBox {
+
+    padding: 20px;
+    margin: 10px;
   }
 
-  .leftSidebar,
-  .rightSidebar {
-    width: 100%;
-    border: none;
-    padding: 10px 0;
-  }
-
-  .rightSidebar img {
+  .projectBox img {
     width: 80%;
-    margin: 0 auto 10px auto;
+    display: block;
+
+    margin: 10px auto;
+  }
+
+  .projectBox h2 {
+    font-size: 1.25em;
+    text-align: center;
+  }
+
+  .projectBox p {
+    font-size: 1em;
+    line-height: 1.5;
   }
 }
