@@ -20,6 +20,7 @@ Tested:  July 9, 2025; Passed on Firefox and Chrome browsers.
 .projectBox{
     padding: 20px;
       margin: 20px;
+      text-align: center;
      background-color: #f9f9f9;
 
 }
@@ -63,6 +64,14 @@ Tested:  July 9, 2025; Passed on Firefox and Chrome browsers.
   font-size: 2rem;
   color: black;
   margin: 0;
+}
+
+.introPara{
+    text-align: center;
+    font-size: 1.5em;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 10px 20px;
 }
 
 @media (max-width: 640px) {
