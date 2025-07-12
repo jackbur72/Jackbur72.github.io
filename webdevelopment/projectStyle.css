@@ -1,0 +1,83 @@
+/*--
+
+*****************************************************************************
+
+Title:  AIndexStyle Css Page
+
+Use:  Add a layout to my index page
+Author:  Jack Burgess
+
+School/Term:  University of Missouri, Summer 2025 term
+
+Developed: July 9, 2025
+
+Tested:  July 9, 2025; Passed on Firefox and Chrome browsers.
+
+*****************************************************************************
+
+*/
+
+.mainTitle{
+  background-color: silver;
+  padding: 1rem 0;
+  border-bottom: 2px solid blue;
+  text-align: center;
+}
+
+.mainTitle h1{
+  font-size: 2rem;
+  color: black;
+  margin: 0;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.leftSidebar {
+  width: 65%;
+  box-sizing: border-box;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+.rightSidebar {
+  width: 30%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.leftSidebar main {
+  width: 100%;
+}
+
+.rightSidebar img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 4px;
+  object-fit: cover;
+}
+
+@media (max-width: 640px) {
+  .container {
+    flex-direction: column;
+  }
+
+  .leftSidebar,
+  .rightSidebar {
+    width: 100%;
+    border: none;
+    padding: 10px 0;
+  }
+
+  .rightSidebar img {
+    width: 80%;
+    margin: 0 auto 10px auto;
+  }
+}
