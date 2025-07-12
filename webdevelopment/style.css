@@ -17,9 +17,19 @@ Tested:  July 9, 2025; Passed on Firefox and Chrome browsers.
 
 */
 
-h1 {
-  color: #0000FF;
+.mainTitle{
+  background-color: silver;
+  padding: 1rem 0;
+  border-bottom: 2px solid blue;
+  text-align: center;
 }
+
+.mainTitle h1{
+  font-size: 2rem;
+  color: black;
+  margin: 0;
+}
+
 h2 {
   color: #0000FF;
 }
