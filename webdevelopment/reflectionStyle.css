@@ -20,7 +20,7 @@ Tested:  July 9th, 2025; Passed on Firefox and Chrome browsers.
 .reflectionBox {
   padding: 20px;
   margin: 20px;
-  background-color: #f9f9f9; /* Optional */
+  background-color: #f9f9f9; 
 }
 
 .firstLetter::first-letter {

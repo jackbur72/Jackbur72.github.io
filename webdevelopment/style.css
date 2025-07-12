@@ -56,6 +56,29 @@ footer{
   background-repeat: no-repeat
 }
 
+.textBox {
+  padding: 20px;
+  margin: 20px;
+  background-color: #f9f9f9; 
+}
+
+.firstLetter::first-letter {
+  font-size: 200%;
+  color: silver;
+  font-weight: bold;
+  text-indent: 5em;
+
+}
+
+.textBox p:not(.firstLetter) {
+  text-indent: 2em;
+}
+
+.firstLetter {
+  text-indent: 2em; 
+}
+
+
 @media only screen and (max-width: 640px) {
 
     body {
