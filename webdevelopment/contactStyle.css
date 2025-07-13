@@ -16,3 +16,25 @@ Tested:  July 14 2025; Passed on Firefox and Chrome browsers.
 *****************************************************************************
 
 */
+
+.formBox {
+    padding: 20px;
+    margin: 40px auto;
+    background-color: silver;
+    border: 2px solid blue;
+    max-width: 600px;
+    min-width: 200px;
+    text-align:center;
+}
+
+.formBox form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+label{
+    display: block;
+    margin-top: 2em;
+}
