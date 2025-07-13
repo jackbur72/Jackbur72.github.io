@@ -1,0 +1,68 @@
+/*--
+
+*****************************************************************************
+
+Title:  General Table Styling to be shared amongst my webpage
+Use:  To style the tables inserted into the website
+Author:  Jack Burgess
+
+School/Term:  University of Missouri, Summer 2025 term
+
+Developed: July 13, 2025
+
+Tested:  July 13, 2025; Passed on Firefox and Chrome browsers.
+
+******************************************************************************
+
+*/
+
+table {
+  width: 100%;
+  
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+th, td {
+
+    border: 1px solid black;
+  padding: 8px;
+
+  text-align: center;
+}
+
+thead {
+  background-color: black;
+  color: white;
+
+}
+
+tbody tr:nth-child(odd) {
+
+  background-color: blue;
+  color: white;
+}
+
+
+tbody tr:nth-child(even) {
+
+  background-color: silver;
+  color: black;
+
+}
+
+.tableWrapper{
+    overflow-x: auto;
+
+}
+
+@media (max-width: 640px) {
+  .tableWrapper {
+    overflow-x: auto;
+  }
+
+  table {
+    min-width: 600px;
+  }
+}
