@@ -25,6 +25,9 @@ Tested:  July 14 2025; Passed on Firefox and Chrome browsers.
     max-width: 600px;
     min-width: 200px;
     text-align:center;
+
+    display: flex;
+    justify-content: center;
 }
 
 .formBox form {
@@ -37,4 +40,10 @@ Tested:  July 14 2025; Passed on Firefox and Chrome browsers.
 label{
     display: block;
     margin-top: 2em;
+}
+
+input, textarea {
+    width: 90%;
+    padding: 10px;
+    margin-top: 1em;
 }
