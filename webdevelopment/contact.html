@@ -1,0 +1,109 @@
+<!--
+
+*****************************************************************************
+
+Title:  Contact Page
+
+Use:  To give my users a place to contact to if needed and to seek more info
+Author:  Jack Burgess
+
+School/Term:  University of Missouri, Summer 2025 term
+
+Developed: July 13th, 2025
+
+Tested:  July 14th, 2025; Passed on Firefox and Chrome browsers.
+******************************************************************************
+
+-->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <title>Contact Page Jack Burgess</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="nav.css">
+  <link rel="stylesheet" href="reflectionStyle.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" href="files/100FaviCon.ico" type="image/100-icon">
+
+
+</head>
+
+<body> 
+
+ <nav>
+  
+  <input type="checkbox" id="hamburger">
+  <label for="hamburger" id="hamburger-icon">&#9776;</label>
+    <ul class ="nav">
+
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li>
+        <a href="projects.html">Projects Main Page</a>
+           <ul class = "navDropDown">
+
+            <li><a href="projects.html#project1">Project1</a></li>
+            <li><a href="projects.html#project2">Project2</a></li>
+            <li><a href="projects.html#project3">Project3</a></li>
+           </ul>
+      </li>
+            <li><a href="reflection.html">Reflections</a></li>
+            <li><a href="contact.html">Contact</a></li>
+    </ul>
+
+</nav>
+
+  <header>
+    <div class="mainTitle">
+    <h1>Jack Burgess Website</h1>
+    </div>
+  
+    <h2>Please fill out the following contact form if you seek further discussion!</h2>
+    
+  </header>
+
+<main>
+    
+<form>
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" placeholder="Please enter your first name" required><br>
+
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" placeholder="Please enter your last name" required><br>
+  
+  <label for="email">Enter your email:</label><br>
+  <input type="email" id="email" name="email" placeholder="Please enter your email address" required><br>
+
+  <label for ="message">Please enter any messages or comments:</label><br>
+  <textarea id="message" name="message" placeholder="Please write any messages here"></textarea>
+  <br>
+
+  <input type="submit" value="Send"><br>
+
+</form>
+  
+</main>
+
+<footer>
+    <p>
+      <img class="pic" src="files/emailPic.jpg" alt="Email">
+      <img class="picBig" src="files/emailPic.jpg" alt="EmailBig">
+      Jack Burgess jmb3xv@umsystem.edu
+    </p>
+  
+  <p>
+    <img class="pic" src="files/phonePic.jpg" alt="phonePic">
+    <img class="picBig" src="files/phonePic.jpg" alt="phone">
+    My Work and Personal Number: (899-999-9999)
+        </p>
+
+        <p>&copy; July 14th 2025 Jack Burgess. </p>
+
+</footer>
+
+</body>
+
+</html>
+
+<!-- https://jackbur72.github.io/webdevelopment/Burgess_Template.html -->
