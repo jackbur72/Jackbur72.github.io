@@ -34,6 +34,7 @@ Tested:  July 9, 2025; Passed on Firefox and Chrome browsers.
   flex-wrap: wrap;
   gap: 10px;
   justify-content: space-between;
+  height: 100%; 
 }
 
 .leftSidebar {
