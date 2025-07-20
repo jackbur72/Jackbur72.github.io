@@ -63,6 +63,6 @@ tbody tr:nth-child(even) {
   }
 
   table {
-    min-width: 600px;
+    font-size: 0.9em;
   }
 }
