@@ -38,9 +38,11 @@ Tested:  July 9, 2025; Passed on Firefox and Chrome browsers.
 
 .leftSidebar {
   width: 65%;
+  height: 100vh;
   box-sizing: border-box;
   padding: 10px;
   border: 1px solid black;
+  overflow-y: auto;
 }
 
 .rightSidebar {
