@@ -67,6 +67,12 @@ Tested:  July 9, 2025; Passed on Firefox and Chrome browsers.
   object-fit: cover;
 }
 
+.leftImage {
+  width: 100%;
+  height: auto;
+  margin-top: 1em; 
+}
+
 @media (max-width: 640px) {
   .container {
     flex-direction: column;
